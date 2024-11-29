@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+.illustration {
+    width: 40%; /* Taille cohérente */
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation douce */
+}
+
+.illustration:hover {
+    transform: scale(1.05); /* Agrandit légèrement l'image */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Ombre autour de l'image */
+    border-color: #0077b6; /* Change la couleur de la bordure */
+}

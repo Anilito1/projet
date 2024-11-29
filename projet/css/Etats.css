@@ -1,0 +1,164 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #0077b6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #023e8a;
+    margin-bottom: 10px;
+}
+
+.indicators, .trends, .key-figures {
+    margin-bottom: 40px;
+}
+
+.indicator, .trend {
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 600px; /* Taille cohérente */
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation douce */
+}
+
+.image:hover {
+    transform: scale(1.05); /* Agrandit légèrement l'image */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Ombre autour de l'image */
+    border-color: #0077b6; /* Change la couleur de la bordure */
+}
+
+a {
+    text-decoration: none; /* Supprime le soulignement sur le lien */
+}
+
+a:hover {
+    cursor: pointer; /* Affiche une main survolant l'image */
+}
+
+.indicator h3, .trend h3 {
+    color: #03045e;
+    margin-top: 10px;
+}
+
+.indicator p, .trend p {
+    margin: 10px 0;
+}
+
+.key-figures ul {
+    list-style: none;
+    padding: 0;
+}
+
+.key-figures ul li {
+    margin: 5px 0;
+    background: #caf0f8;
+    padding: 10px;
+    border-left: 5px solid #0077b6;
+}
+
+footer {
+    background: #03045e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Conteneur de chat */
+#chat-container {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* Zone des messages */
+#chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #fafafa;
+}
+
+/* Style des messages */
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.message.user {
+    background-color: #0077b6;
+    color: white;
+    text-align: right;
+}
+
+.message.ai {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+/* Zone de saisie */
+#chat-input-container {
+    display: flex;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#send-button:hover {
+    background-color: #005f8c;
+}

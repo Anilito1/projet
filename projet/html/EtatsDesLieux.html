@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>État des Lieux – Indicateurs et Tendances</title>
+    <link rel="stylesheet" href="../css/Etats.css">
+
+</head>
+<body>
+    <header class="header">
+        <h1>État des Lieux – Indicateurs et Tendances</h1>
+        <p>Découvrez les efforts et défis pour préserver nos océans.</p>
+            <nav>
+                <ul>
+                    <li><a href="../html/accueil.html">Accueil</a></li>
+                    <li><a href="../html/EtatsDesLieux.html">État des Lieux</a></li>
+                    <li><a href="../html/defis.html">Défis et Incertitudes</a></li>
+                    <li><a href="../html/InitiativeSolutions.html"> Initiatives et Solutions</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <!-- Indicateurs à suivre -->
+        <section class="indicators">
+            <h2>Indicateurs à suivre</h2>
+            <div class="indicator">
+                <h3>Part des eaux marines en Aires protégées</h3>
+                <p>En 2016, 30 % des eaux marines françaises sont en Aires maritimes protégées (contre 4 % en 2014).</p>
+                 <a href="https://www.eaufrance.fr/" target="_blank">
+                <img src="../image/marine.jpg" alt="Carte des zones maritimes protégées" class="image">
+                 </a>
+            </div>
+            <div class="indicator">
+                <h3>État des stocks de pêche</h3>
+                <p>Augmentation des stocks dans les limites biologiques de sécurité de 16 % à 30 % entre 2010 et 2016.</p>
+                <a href="https://www.ifremer.fr/" target="_blank">
+                <img src="../image/stock.jpg" alt="Illustration des stocks de pêche" class="image">
+            </a>
+            </div>
+            <div class="indicator">
+                <h3>Engagements européens et internationaux</h3>
+                <p>La France a signé plusieurs accords pour protéger les récifs coralliens et interdire le chalutage en profondeur.</p>
+                <a href="https://www.culture.gouv.fr/" target="_blank">
+                <img src="../image/international.jpg" alt="Engagements internationaux" class="image">
+            </a>
+            </div>
+        </section>
+
+        <!-- Tendances lourdes -->
+        <section class="trends">
+            <h2>Tendances Lourdes</h2>
+            <div class="trend">
+                <h3>Aquaculture en croissance</h3>
+                <p>Une réponse durable à la surpêche, permettant de satisfaire la demande croissante en protéines.</p>
+                <img src="aquaculture.jpg" alt="Aquaculture" class="image">
+            </div>
+            <div class="trend">
+                <h3>Engagement de la France</h3>
+                <ul>
+                    <li>Politique commune de la pêche (PCP).</li>
+                    <li>Moratoire sur la recherche d’hydrocarbures en Méditerranée.</li>
+                    <li>Initiative pour les récifs coralliens (IFRECOR).</li>
+                </ul>
+                <img src="french-commitments.jpg" alt="Initiatives françaises" class="image">
+            </div>
+        </section>
+
+        <!-- Chiffres clés -->
+        <section class="key-figures">
+            <h2>Chiffres Clés (2010-2016)</h2>
+            <ul>
+                <li>63 % → 50 % : Stocks mieux étudiés.</li>
+                <li>16 % → 30 % : Stocks dans les limites biologiques de sécurité.</li>
+                <li>22 % → 20 % : Réduction des stocks hors des limites.</li>
+            </ul>
+        </section>
+        <div id="chat-container">
+            <div id="chat-messages"></div>
+            <div id="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Posez une question..." />
+                <button id="send-button">Envoyer</button>
+            </div>
+        </div>
+    
+        <script src="../java/Etats.js"></script>
+        
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 - Préservation des Océans | Tous droits réservés</p>
+    </footer>
+</body>
+</html>
